@@ -86,7 +86,7 @@
 						<configuration>
 							<suiteXmlFiles>
 								<!-- TestNG suite XML files -->
-								<suiteXmlFile>testng_maven.xml</suiteXmlFile>
+								<suiteXmlFile>maven1_testng.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
