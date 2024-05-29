@@ -21,15 +21,4 @@ public class InvoiceTest extends BaseClass{
 		System.out.println("step4");
 	}
 	
-	@Test(/*retryAnalyzer = com.comcast.crm.listenerutility.RetryListenerImp.class*/)
-	public void createInvoiceTestwithContact()
-	{
-		System.out.println("executed InvoiceTestwithContact");
-		String actTitle= driver.getTitle();
-		Assert.assertEquals(actTitle,"Login");
-		System.out.println("step1");
-		System.out.println("step2");
-		System.out.println("step3");
-		System.out.println("step4");
-	}
 }
