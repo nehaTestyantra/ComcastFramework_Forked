@@ -17,6 +17,6 @@ public class pgm1 {
 		driver.findElement(By.name("user_name")).click();
 		//Thread.sleep(2000);
 		driver.close();	
-		driver.get("http://localhost:8888");
+		
 	}
 }
