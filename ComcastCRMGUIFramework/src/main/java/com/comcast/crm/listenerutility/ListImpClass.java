@@ -81,21 +81,6 @@ public class ListImpClass implements ITestListener, ISuiteListener {
 		}
 
 	@Override
-	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		// TODO Auto-generated method stub
-	}
-
-	@Override
-	public void onTestFailedWithTimeout(ITestResult result) {
-		// TODO Auto-generated method stub
-	}
-
-	@Override
-	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
-	}
-
-	@Override
 	public void onFinish(ITestContext context) {
 		report.flush();
 	}
