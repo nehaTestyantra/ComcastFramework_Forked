@@ -27,7 +27,7 @@ import com.comcast.crm.objectrepositoryutility.HomePage;
 import com.comcast.crm.objectrepositoryutility.LoginPage;
 
 public class BaseClass {
-//base class
+
 	public  WebDriver driver;
 	public static WebDriver sdriver =null;  //static variable used in IListener
 	public  DatabaseUtility dbLib = new DatabaseUtility();
